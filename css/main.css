@@ -659,7 +659,7 @@ section.active {
     height: -moz-fit-content !important;
     height: fit-content !important;
   }
-  .home .row .col-lg-4 {
+  .home .row .col-lg-4,.about .profile-image {
     width: 250px;
     margin: auto;
     margin-bottom: 10px;
@@ -668,6 +668,9 @@ section.active {
     border-radius: 50% !important;
     background-image: url(../images/me2.png) !important;
     border: 4px solid #252525;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
   }
   .home .row .col-lg-8 {
     align-items: center;
@@ -728,8 +731,8 @@ section.active {
     width: 42%;
   }
   section.about .container .col-lg-6:first-child .info div p span {
-    font-size: 13px;
-    text-wrap:nowrap;
+    display: block;
+    font-size: 15px;
   }
   section .header h1 {
     font-size: 40px !important;

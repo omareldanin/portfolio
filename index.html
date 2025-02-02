@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <title>Omar mohamed</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <button class="active" data-target="home">
+        <i class="fa-solid fa-house center"></i>
+        <p>home</p>
+      </button>
+      <button data-target="about">
+        <i class="fa-solid fa-user center"></i>
+        <p>about</p>
+      </button>
+      <button data-target="works">
+        <i class="fa-solid fa-briefcase center"></i>
+        <p>portfolio</p>
+      </button>
+      <button data-target="contact">
+        <i class="fa-solid fa-envelope center"></i>
+        <p>contact</p>
+      </button>
+    </div>
+    <div class="loading-cover"></div>
+    <section id="home" class="home active">
+      <div class="cross"></div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-8">
+            <h1>I'M OMAR MOHAMED.</h1>
+            <h2>Software Engineer</h2>
+            <p>
+              I’m a Software Engineer with 3+ years’ experience in building
+              responsive websites with HTML, CSS, SASS, JavaScript,TypeScript.
+              Expertise in frameworks like React.js, Node.js, Redux using Git as
+              version control. Passionate about clean code and getting things
+              done. Looking for a position where I can give my experience and
+              learn more.
+            </p>
+            <button
+              class="button"
+              data-target="about"
+              onclick="navigateToAbout()"
+            >
+              more about me
+              <span>
+                <i class="fa-solid fa-arrow-right fa-lg"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="header center">
+        <h1>about <span>me</span></h1>
+        <h2>Resume</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>personal infos</h3>
+            <div class="info">
+              <div>
+                <p>first name:<span> omar</span></p>
+                <p>age:<span> 25</span></p>
+                <p>freelance:<span class="available"> available</span></p>
+                <p>phone:<span> +201090561788</span></p>
+                <!-- <p>Skype:<span> omar.eldanin</span></p> -->
+              </div>
+              <div>
+                <p>last name:<span> mohamed</span></p>
+                <p>nationality:<span> egyptian</span></p>
+                <p>address:<span> cairo, egypt</span></p>
+                <!-- <p>
+                  email:<span style="text-transform: lowercase">
+                    omer.eldanin@gmail.com</span
+                  >
+                </p> -->
+                <p>languages:<span> arabic, english</span></p>
+              </div>
+            </div>
+            <a href="images/omar mohamed-Cv.pdf" target="_blank" class="button">
+              download cv
+              <span><i class="fa-solid fa-download fa-lg"></i></span>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-6">
+                <div>
+                  <h1>3<span>+</span></h1>
+                  <p>years of experience</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div>
+                  <h1>30<span>+</span></h1>
+                  <p>completed projects</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills">
+          <div>
+            <h3>MY SKILLS</h3>
+          </div>
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+            <div class="col">
+              <div class="c100 p98">
+                <span>98%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>HTML</h6>
+            </div>
+            <div class="col">
+              <div class="c100 p95">
+                <span>95%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>CSS</h6>
+            </div>
+            <div class="col">
+              <div class="c100 p85">
+                <span>85%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>JavaScript</h6>
+            </div>
+            <div class="col">
+              <div class="c100 p85">
+                <span>75%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>TypeScript</h6>
+            </div>
+            <div class="col">
+              <div class="c100 p90">
+                <span>90%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>Bootstrap</h6>
+            </div>
+            <div class="col">
+              <div class="c100 p95">
+                <span>95%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>SASS</h6>
+            </div>
+            <div class="col">
+              <div class="c100 p85">
+                <span>85%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>React.js</h6>
+            </div>
+
+            <div class="col">
+              <div class="c100 p80">
+                <span>80%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>Next.js</h6>
+            </div>
+
+            <div class="col">
+              <div class="c100 p80">
+                <span>70%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>Node.js</h6>
+            </div>
+            <div class="col">
+              <div class="c100 p85">
+                <span>85%</span>
+                <div class="slice">
+                  <div class="bar"></div>
+                  <div class="fill"></div>
+                </div>
+              </div>
+              <h6>Git & Github</h6>
+            </div>
+          </div>
+        </div>
+        <div class="education">
+          <div>
+            <h3>EDUCATION & EXPERIENCE</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="icon">
+                <i class="fa fa-briefcase"></i>
+              </div>
+              <span class="time open-sans-font text-uppercase"
+                >2019 - 2023</span
+              >
+              <h5 class="poppins-font text-uppercase">
+                computer science
+                <span class="place open-sans-font">benha university</span>
+              </h5>
+              <p class="open-sans-font">
+                bachelor of computer science and artificial intelligence from
+                benha university
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="icon">
+                <i class="fa fa-briefcase"></i>
+              </div>
+              <span class="time open-sans-font text-uppercase"
+                >2021 - present</span
+              >
+              <h5 class="poppins-font text-uppercase">
+                frontend developer
+                <span class="place open-sans-font">freelance</span>
+              </h5>
+              <p class="open-sans-font">
+                design and develop responsive templates and dashboards for your
+                business
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="works" class="works">
+      <div class="header center">
+        <h1>my <span>portfolio</span></h1>
+        <h2>works</h2>
+      </div>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">
+            <div class="work">
+              <div class="image">
+                <img src="images/works/3.png" alt="image1" />
+              </div>
+              <div class="info">
+                <h4 class="text-uppercase">top value</h4>
+                <a
+                  href="https://topvaluecompany.com/"
+                  target="_blank"
+                  style="text-decoration: none"
+                  class="button"
+                >
+                  Preview
+                  <span
+                    ><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="work">
+              <div class="image">
+                <img src="images/works/2.png" alt="image1" />
+              </div>
+              <div class="info">
+                <h4 class="text-uppercase">Talabatek</h4>
+                <a
+                  href="https://drive.google.com/file/d/1P6Lt8Ys_53dgOJHsdOPQcNSIKYISOxTF/view?usp=sharing"
+                  target="_blank"
+                  style="text-decoration: none"
+                  class="button"
+                >
+                  Preview
+                  <span
+                    ><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="work">
+              <div class="image">
+                <img src="images/works/1.png" alt="image1" />
+              </div>
+              <div class="info">
+                <h4 class="text-uppercase">Alhal Alshamel</h4>
+                <a
+                  href="https://omareldanin.github.io/elhalelshamel/index.html"
+                  target="_blank"
+                  style="text-decoration: none"
+                  class="button"
+                >
+                  Preview
+                  <span
+                    ><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="work">
+              <div class="image">
+                <img src="images/works/7.png" alt="image1" />
+              </div>
+              <div class="info">
+                <h4 class="text-uppercase">Albarq</h4>
+                <a
+                  href="https://drive.google.com/file/d/186kbL-kV3UAlmT74jbHscuY7Kt27xXOm/view?usp=drive_link"
+                  target="_blank"
+                  style="text-decoration: none"
+                  class="button"
+                >
+                  Preview
+                  <span
+                    ><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="work">
+              <div class="image">
+                <img src="images/works/4.png" alt="image1" />
+              </div>
+              <div class="info">
+                <h4 class="text-uppercase">Alwasam</h4>
+                <a
+                  href="https://omareldanin.github.io/elhalelshamel/index.html"
+                  target="_blank"
+                  style="text-decoration: none"
+                  class="button"
+                >
+                  Preview
+                  <span
+                    ><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="work">
+              <div class="image">
+                <img src="images/works/5.png" alt="image1" />
+              </div>
+              <div class="info">
+                <h4 class="text-uppercase">isis</h4>
+                <a
+                  href="https://omareldanin.github.io/isis/"
+                  target="_blank"
+                  style="text-decoration: none"
+                  class="button"
+                >
+                  Preview
+                  <span
+                    ><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="work">
+              <div class="image">
+                <img src="images/works/6.png" alt="image1" />
+              </div>
+              <div class="info">
+                <h4 class="text-uppercase">clean code</h4>
+                <a
+                  href="https://omareldanin.github.io/cleancode/"
+                  target="_blank"
+                  style="text-decoration: none"
+                  class="button"
+                >
+                  Preview
+                  <span
+                    ><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="header center">
+        <h1>get in <span>touch</span></h1>
+        <h2>contact</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
+              Don't be shy !
+            </h3>
+            <p class="open-sans-font mb-4">
+              Feel free to get in touch with me. I am always open to discussing
+              new projects, creative ideas or opportunities to be part of your
+              visions.
+            </p>
+            <p class="open-sans-font custom-span-contact position-relative">
+              <i class="fa fa-map position-absolute"></i>
+              <span class="d-block">Address Point</span>
+              Tanta, Algharbia, Egypt.
+            </p>
+            <p class="open-sans-font custom-span-contact position-relative">
+              <i class="fa fa-envelope-open position-absolute"></i>
+              <span class="d-block">mail me</span>
+              <a href="mailto:omer.eldanin@mail.com"> omer.eldanin@mail.com</a>
+            </p>
+            <p class="open-sans-font custom-span-contact position-relative">
+              <i class="fa fa-phone-square position-absolute"></i>
+              <span class="d-block">call me</span>
+              <a href="Tel: +201090561788"> +20 109 056 1788 </a>
+            </p>
+            <ul class="social list-unstyled pt-1 mb-5">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/omar-mohamed-8a66a81a1/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/omer.eldanin.5"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/Eldanin2"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <form id="myForm" class="contactform">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="name"
+                      placeholder="YOUR NAME"
+                      required=""
+                    />
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="user_email"
+                      placeholder="YOUR EMAIL"
+                      required=""
+                    />
+                  </div>
+                </div>
+                <div class="col-12 col-md-12">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="subject"
+                      placeholder="YOUR SUBJECT"
+                      required=""
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      placeholder="YOUR MESSAGE"
+                      rows="6"
+                      required=""
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="button">
+                    SEND MESSAGE
+                    <span>
+                      <i class="fa-solid fa-paper-plane"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
